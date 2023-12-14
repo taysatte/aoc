@@ -40,10 +40,10 @@ pqr3stu8vwx
 a1b2c3d4e5f
 treb7uchet
 
-In this example, the calibration values of these four lines are 12, 38, 15, 
+In this example, the calibration values of these four lines are 12, 38, 15,
 and 77. Adding these together produces 142.
 
-Consider your entire calibration document. What is the sum of all of the 
+Consider your entire calibration document. What is the sum of all of the
 calibration values?
 """
 
@@ -67,7 +67,7 @@ class Solution():
         document = []
         calibration_vals = []
 
-        with open('./input.txt', 'r') as file:
+        with open('./test_input.txt', 'r') as file:
             lines = file.readlines()
             for i in lines:
                 word = i
@@ -77,7 +77,7 @@ class Solution():
         i = 0
         while i <= doc_length:
             text = document[i]
-            cal_val = self.get_calibration_number(text)
+            cal_val = self.get_cal_number_from_line(text)
             calibration_vals.append(cal_val)
             i += 1
 
