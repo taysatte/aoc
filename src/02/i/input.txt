@@ -76,4 +76,25 @@ Game 75: 2 blue; 1 red, 1 blue, 1 green; 1 blue; 5 blue, 2 green; 1 green, 1 red
 Game 76: 9 blue, 4 red, 3 green; 8 blue, 8 green, 3 red; 3 red, 2 green, 8 blue; 8 green, 6 blue, 5 red
 Game 77: 7 blue, 17 green; 1 blue, 2 red, 18 green; 18 green, 1 blue, 2 red
 Game 78: 2 red, 2 green, 1 blue; 5 green, 3 blue; 1 green, 2 blue; 2 blue, 6 red, 5 green
-Game 79: 4 red, 6 green, 17 blue; 2 blue, 3 red, 8 green; 8 red, 19 blue, 12 
+Game 79: 4 red, 6 green, 17 blue; 2 blue, 3 red, 8 green; 8 red, 19 blue, 12 green; 5 red, 8 green, 12 blue; 16 blue, 1 red, 12 green; 5 green, 18 blue, 8 red
+Game 80: 1 blue, 4 red, 10 green; 6 green; 6 red, 3 green, 2 blue
+Game 81: 2 green, 5 blue, 4 red; 3 red, 1 green, 14 blue; 3 red, 10 blue, 2 green
+Game 82: 12 red, 5 blue, 2 green; 12 blue, 6 red, 5 green; 13 blue, 1 green, 3 red; 11 red, 3 blue; 4 red, 3 green
+Game 83: 10 blue, 16 red, 4 green; 6 red, 2 blue, 14 green; 9 blue, 14 green; 7 blue, 1 red; 4 green, 2 red, 8 blue; 5 red, 7 green
+Game 84: 3 red, 3 blue, 6 green; 9 red, 17 green, 16 blue; 13 blue, 7 red; 14 green, 2 red, 14 blue
+Game 85: 7 blue; 8 red, 10 blue, 1 green; 6 blue, 9 red
+Game 86: 9 red, 6 green, 9 blue; 1 blue, 5 red; 11 red, 1 green, 11 blue; 3 green, 8 blue; 8 red, 5 green, 4 blue; 15 blue, 4 green, 2 red
+Game 87: 2 red, 2 green; 5 red, 2 blue; 6 red
+Game 88: 2 green, 5 red; 9 blue, 7 red, 3 green; 1 blue, 2 green, 3 red; 3 green, 6 blue, 1 red; 1 red, 3 green, 6 blue
+Game 89: 10 blue, 13 red; 15 red, 6 blue, 2 green; 2 green, 10 red, 18 blue; 1 green, 18 red, 8 blue
+Game 90: 2 red, 2 blue, 9 green; 1 red, 9 green; 7 green, 3 blue, 2 red; 4 blue, 2 red, 4 green
+Game 91: 6 green, 4 red, 9 blue; 4 green, 4 red, 17 blue; 6 blue, 2 red, 4 green; 7 green, 2 red, 13 blue; 1 green, 13 blue, 1 red
+Game 92: 4 green, 1 blue, 8 red; 7 green, 6 red; 13 red; 9 green; 6 red, 1 blue, 4 green; 2 red, 1 blue, 15 green
+Game 93: 8 green, 8 red, 13 blue; 4 red, 10 green; 15 blue, 11 red; 14 green, 5 red, 6 blue; 12 red, 3 blue, 13 green; 9 red, 10 green, 6 blue
+Game 94: 14 red, 10 green; 15 red; 4 red; 4 green, 7 red, 1 blue; 6 red, 5 green; 1 red, 2 green
+Game 95: 1 blue, 11 red; 15 red, 1 blue, 3 green; 13 red, 2 blue, 3 green; 1 green, 1 blue
+Game 96: 4 red, 4 blue, 4 green; 5 blue, 5 green, 4 red; 2 red, 8 blue; 16 red, 5 green, 13 blue
+Game 97: 6 red, 13 green, 3 blue; 10 green, 4 blue; 3 red, 12 green, 4 blue; 3 red, 5 blue, 16 green; 3 red, 9 green, 1 blue
+Game 98: 8 red, 12 green, 2 blue; 7 green, 8 red, 1 blue; 2 blue, 6 red, 3 green; 9 red, 1 blue, 4 green
+Game 99: 6 blue, 11 red, 7 green; 9 red, 6 green, 1 blue; 9 red, 2 blue
+Game 100: 1 red, 4 blue, 2 green; 6 red, 2 green, 11 blue; 1 red, 1 blue, 2 green; 1 red, 7 blue

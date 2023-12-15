@@ -54,4 +54,36 @@ only 12 red cubes, 13 green cubes, and 14 blue cubes.
 What is the sum of the IDs of those games?
 """
 
-print("Hello World")
+import sys
+
+
+class Solution():
+
+    def run(self) -> None:
+        self.parse_games()
+
+    def parse_games(self) -> None:
+
+        file = open(sys.argv[1]).read().strip()
+        ans = 0
+
+        for line in file.split("\n"):
+            is_valid = True
+            id_, rounds_line = line.split(":")
+            for round in rounds_line.split(";"):
+                for cubes in round.split(","):
+                    n, color = cubes.split()
+                    if int(n) > {
+                            "red": 12,
+                            "green": 13,
+                            "blue": 14
+                            }.get(color, 0):
+                        is_valid = False
+            if is_valid:
+                ans += int(id_.split()[-1])
+        print(ans)
+
+
+if __name__ == "__main__":
+
+    s = Solution().run()
