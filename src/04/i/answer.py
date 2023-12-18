@@ -93,6 +93,7 @@ class Solution():
                     else:
                         curr_card_points *= point_mult
             total_card_points += curr_card_points
+
         print(total_card_points)
 
 

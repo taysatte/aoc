@@ -64,8 +64,14 @@ class Solution():
         m = len(lines[0])   # col length
 
         def is_symbol(i, j):
+            # checks if given cell is within the specified grid
+            # n == line index
+            # m == column index
             if not (0 <= i < n and 0 <= j < m):
                 return False
+
+            # returns true if the specified cell is not a "." and
+            # not a number
             return lines[i][j] != "." and not lines[i][j].isdigit()
 
         ans = 0
