@@ -61,30 +61,50 @@ class Solution():
     def run(self) -> None:
         self.main()
 
-    def main(self):
+    def generate_original_cards(self) -> list:
         input = open(sys.argv[1]).readlines()
+        cards = []
+        for num, line in enumerate(input):
+            cards.append((num, line.strip("\n").split(":")[1].strip()))
+        return cards
 
-        total_card_points = 0
+    def get_card_matches(self, winning_nums: list,  card_nums: list) -> int:
+        card_matches = 0
+        for num in winning_nums:
+            if num in card_nums:
+                card_matches += 1
+        return card_matches
 
-        for line in input:
-            curr_line = line.strip("\n").split(":")
-            numbers = curr_line[1].split("|")
-            winning_numbers = numbers[0].strip().split()
-            card_numbers = numbers[1].strip().split()
+    def make_copies(self, num_of_copies: str):
+        pass
 
-            point_mult = 2
-            curr_card_points = 0
+    def main(self):
+        original_cards = self.generate_original_cards()
+        input_length = len(original_cards)
+        copies = [[] for _ in range(input_length + 1)]
 
-            # loops through each card number and checks if in winning_numbers
-            for i in range(0, len(winning_numbers)):
-                if winning_numbers[i] in card_numbers:
-                    if curr_card_points == 0:
-                        curr_card_points += 1
-                    else:
-                        curr_card_points *= point_mult
-            total_card_points += curr_card_points
+        for card in original_cards:
 
-        print(total_card_points)
+            card_content = card[1]
+            card_index = card[0]
+
+            copy_count = 0
+
+            winning_nums = card_content.split("|")[0].strip().split()
+            card_nums = card_content.split("|")[1].strip().split()
+
+            copy_count = self.get_card_matches(winning_nums, card_nums)
+
+            for i in range(card_index + 1, card_index + copy_count + 1):
+                copies[card_index].append(i)
+
+        score = [0] + [1 for _ in range(input_length)]
+
+        for i in range(input_length - 1, -1, -1):
+            for j in copies[i]:
+                score[i] += score[j]
+
+        print(sum(score))
 
 
 if __name__ == "__main__":
