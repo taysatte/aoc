@@ -85,10 +85,3 @@ class Solution():
         for val in values:
             cal_sum += int(val)
         return cal_sum
-
-
-if __name__ == "__main__":
-    s = Solution()
-    vals = s.parse_document()
-    res = s.sum_calibration_values(vals)
-    print(res)
